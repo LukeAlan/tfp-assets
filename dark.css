@@ -2,21 +2,20 @@
 .nav a:hover{background-color:rgba(255,255,255,0.1)!important;}
 header{
     box-shadow: 0 0 10px 5px #12121285!important;
-    z-index:25;
+    z-index:25!important;
     background-color:#121212!important;
     border-color:#121212!important;
 }
 body {
  background: #1a1a1a!important;
- color:#ffffff;
+ color:#ffffff!important;
 }
 section{border-color:transparent!important;}
 footer#footer-theme section:last-child,footer#footer-theme section:first-child{background-color: rgb(27, 27, 27)!important;}
 div.ccm-page main {
-    background-color:rgba(25,25,25,.15);
-    padding-bottom:80px;
-    box-shadow: 0 0 10px 5px rgba(25,25,25,0.15);
+    background-color:rgba(25,25,25,.15)!important;
+    padding-bottom:80px!important;
+    box-shadow: 0 0 10px 5px rgba(25,25,25,0.15)!important;
 }
-footer#concrete5-brand a:nth-child(1){transition: all 100ms ease;}
-.material-icons{height:1px!important;}
-.col-sm-12 span:nth-child(1){display:none;}
+footer#concrete5-brand a:nth-child(1){transition: all 100ms ease!important;}
+.col-sm-12 span:nth-child(1){display:none!important;}
